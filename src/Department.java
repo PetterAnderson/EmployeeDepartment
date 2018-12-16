@@ -1,6 +1,8 @@
 
 public class Department {
 	
+	private String name;
+	private int budget;
 	public String getName() {
 		return name;
 	}
@@ -13,7 +15,6 @@ public class Department {
 	public void setBudget(int budget) {
 		this.budget = budget;
 	}
-	private String name;
-	private int budget;
+
 	
 }

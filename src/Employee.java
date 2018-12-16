@@ -1,6 +1,9 @@
 
 public class Employee {
 
+	private String empID;
+	private int salary;
+	
 	public String getEmpID() {
 		return empID;
 	}
@@ -13,9 +16,7 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	private String empID;
-	private int salary;
-	
+
 	
 	
 }
